@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571794614102",
+    "project_id": "fotografpaylasma-e7301",
+    "storage_bucket": "fotografpaylasma-e7301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571794614102:android:4289f77062daacc60e58f7",
+        "android_client_info": {
+          "package_name": "com.example.fotografpaylasmauygulamas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571794614102-i8d3rsc39d1i58k3750196p1e2ev95bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX8l1DpOcBKNjGZvceTCtSC6B8xd2fF94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571794614102-i8d3rsc39d1i58k3750196p1e2ev95bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

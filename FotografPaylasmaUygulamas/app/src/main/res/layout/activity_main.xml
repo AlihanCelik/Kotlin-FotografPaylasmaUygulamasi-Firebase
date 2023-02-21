@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.KullaniciActivity">
+
+    <EditText
+        android:id="@+id/EmailText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="Email Adresinizi Giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/sifreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:onClick="girisYap"
+        android:text="Giriş Yap"
+        app:iconTint="@color/design_default_color_error"
+        app:layout_constraintBaseline_toBaselineOf="@+id/kayit"
+        app:layout_constraintEnd_toStartOf="@+id/kayit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="279dp"
+        android:onClick="kayitOl"
+        android:text="Kayıt Ol"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/sifreText" />
+
+    <EditText
+        android:id="@+id/sifreText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="53dp"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/kayit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
